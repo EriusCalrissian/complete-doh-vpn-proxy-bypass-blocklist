@@ -10,6 +10,10 @@ UPSTREAM_BASE="${UPSTREAM_BASE:-https://raw.githubusercontent.com/hagezi/dns-blo
 DOMAIN="dnsbunker.org"
 CURL_OPTS=( -fsSL --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 120 )
 
+REPO_URL="https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist"
+UPSTREAM_URL="https://github.com/hagezi/dns-blocklists"
+NOW="$(LC_ALL=C date -u '+%d %b %Y %H:%M UTC')"
+
 FILES=(
   "adblock/doh-vpn-proxy-bypass.txt"
   "adblock/doh.top.txt"
@@ -69,6 +73,93 @@ local_comment_for() {
     rpz) printf '%s\n' "; Local append: dnsbunker.org (complete-doh-vpn-proxy-bypass-blocklist)" ;;
     *) printf '%s\n' "# Local append: dnsbunker.org (complete-doh-vpn-proxy-bypass-blocklist)" ;;
   esac
+}
+
+comment_prefix_for() {
+  local format="$1"
+  case "$format" in
+    adblock) printf '%s' "!" ;;
+    rpz) printf '%s' ";" ;;
+    *) printf '%s' "#" ;;
+  esac
+}
+
+# Prints title and description (one per line) for a list path.
+header_text_for() {
+  local name
+  name="$(basename "$1" .txt)"
+  case "$name" in
+    doh-vpn-proxy-bypass|doh-vpn-proxy-bypass-onlydomains)
+      printf '%s\n' "Complete DoH/VPN/Tor/Proxy Bypass Blocklist - incl. dnsbunker.org"
+      printf '%s\n' "Blocks encrypted DNS, VPN, Tor and proxy domains used to bypass your DNS. HaGeZi's DoH/VPN/Tor/Proxy Bypass list plus dnsbunker.org."
+      ;;
+    doh|doh-onlydomains)
+      printf '%s\n' "Complete Encrypted DNS Bypass Blocklist - incl. dnsbunker.org"
+      printf '%s\n' "Blocks encrypted DNS servers used to bypass your DNS. HaGeZi's Encrypted DNS Bypass list plus dnsbunker.org."
+      ;;
+    doh.top)
+      printf '%s\n' "Complete Encrypted DNS Bypass Blocklist (Top 1M) - incl. dnsbunker.org"
+      printf '%s\n' "Blocks encrypted DNS servers used to bypass your DNS, only domains on various Top 1M lists. HaGeZi's Encrypted DNS Bypass Top 1M list plus dnsbunker.org."
+      ;;
+    *)
+      echo "error: no header text for path: $1" >&2
+      return 1
+      ;;
+  esac
+}
+
+# Replace upstream identity fields with this repo's; keep upstream date in "Last modified".
+rewrite_header() {
+  local file="$1"
+  local rel="$2"
+  local format="$3"
+  local prefix
+  local title
+  local desc
+  local tmp
+
+  prefix="$(comment_prefix_for "$format")"
+  { read -r title; read -r desc; } < <(header_text_for "$rel")
+  tmp="$(mktemp "${STAGE}/header.XXXXXX")"
+
+  awk \
+    -v p="$prefix" \
+    -v title="$title" \
+    -v desc="$desc" \
+    -v note="Use only with your own DNS enforced: redirect standard DNS outbound (TCP/UDP 53) to an internal server and block DoT/DoQ (TCP/UDP 853) outbound. Do not load lists hosted on dnsbunker.org together with this list." \
+    -v home="${REPO_URL}" \
+    -v src="${UPSTREAM_URL} (HaGeZi), modified" \
+    -v lic="${REPO_URL}/blob/main/LICENSE" \
+    -v issues="${REPO_URL}/issues" \
+    -v disc="${REPO_URL}/blob/main/README.md#disclaimer" \
+    -v now="${NOW}" '
+    NR <= 30 && index($0, p " ") == 1 {
+      rest = substr($0, length(p) + 2)
+      if (rest ~ /^Title:/)       { print p " Title: " title; next }
+      if (rest ~ /^Description:/) { print p " Description: " desc; next }
+      if (rest ~ /^Note:/)        { print p " Note: " note; next }
+      if (rest ~ /^Homepage:/)    { print p " Homepage: " home; print p " Source: " src; next }
+      if (rest ~ /^License:/)     { print p " License: " lic; next }
+      if (rest ~ /^Issues:/)      { print p " Issues: " issues; next }
+      if (rest ~ /^Disclaimer:/)  { print p " Disclaimer: " disc; next }
+      if (rest ~ /^Last modified:/) {
+        orig = rest
+        sub(/^Last modified:[[:space:]]*/, "", orig)
+        print p " Last modified: " now " (" orig ")"
+        next
+      }
+    }
+    { print }
+  ' "$file" >"$tmp"
+  mv "$tmp" "$file"
+}
+
+# Files equal apart from the "Last modified" header line.
+same_except_modified() {
+  local a="$1"
+  local b="$2"
+  local re='^[!#;] Last modified:'
+  cmp -s <(grep -Ev "$re" "$a") <(grep -Ev "$re" "$b")
 }
 
 # Exact whole-line match, case-insensitive (fixed string).
@@ -198,6 +289,7 @@ fetch_and_transform() {
 
   normalize_to "$tmp" <"$raw"
   added="$(append_missing "$tmp" "$format")"
+  rewrite_header "$tmp" "$rel" "$format"
   mv "$tmp" "$dest"
   echo "Wrote ${rel} (appended ${added} marker(s) onto upstream)"
 }
@@ -214,6 +306,11 @@ promote_stage() {
     if [[ ! -f "$src" ]]; then
       echo "error: staged file missing: ${rel}" >&2
       return 1
+    fi
+    # Keep the previous "Last modified" when nothing else changed (no timestamp-only commits).
+    if [[ -f "$dest" ]] && same_except_modified "$src" "$dest"; then
+      rm -f "$src"
+      continue
     fi
     mkdir -p "$(dirname "$dest")"
     mv "$src" "$dest"

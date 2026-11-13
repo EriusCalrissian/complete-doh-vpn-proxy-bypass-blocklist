@@ -5,7 +5,7 @@
 
 Mirror of selected [HaGeZi DNS blocklists](https://github.com/hagezi/dns-blocklists) for **DoH / VPN / Tor / proxy bypass**, with **`dnsbunker.org` appended** in the correct format for each list type.
 
-**License:** [GPL-3.0](LICENSE) (same as upstream). List files keep HaGeZi headers and attribution.
+**License:** [GPL-3.0](LICENSE) (same as upstream). List files carry this repo's own header (title, homepage, issues, …) with a `Source:` line crediting HaGeZi.
 
 **Source:** [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists) — credit to [HaGeZi](https://github.com/hagezi).
 
@@ -93,7 +93,7 @@ Locally:
 bash scripts/sync.sh
 ```
 
-The workflow commits only when list content changed (author: `github-actions[bot]`). Append is idempotent: if upstream later includes `dnsbunker.org`, the sync will not duplicate it. Header `Number of entries` is bumped when markers are added.
+The workflow commits only when list content changed (author: `github-actions[bot]`). Append is idempotent: if upstream later includes `dnsbunker.org`, the sync will not duplicate it. Header `Number of entries` is bumped when markers are added. `Last modified` shows when this repo last changed the list, followed by the upstream date in parentheses, e.g. `13 Nov 2026 18:11 UTC (13 Nov 2026 08:57 UTC)`.
 
 ### Formats appended
 
