@@ -8,10 +8,10 @@
 ! Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ! Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 14 Nov 2026 13:31 UTC (14 Nov 2026 08:55 UTC)
-! Version: 2026.1114.0855.52
+! Last modified: 15 Nov 2026 13:56 UTC (15 Nov 2026 08:56 UTC)
+! Version: 2026.1115.0856.55
 ! Syntax: AdBlock
-! Number of entries: 289
+! Number of entries: 292
 !
 ||httpdns.music.163.com^
 ||doh.360.cn^
@@ -76,6 +76,7 @@
 ||mask-canary.icloud.com^
 ||mask-h2.icloud.com^
 ||http-dns.imoim.net^
+||apidns.kwd.inkuai.com^
 ||httpdns.kwd.inkuai.com^
 ||dns.iqiyi.com^
 ||doh.iqiyi.com^
@@ -102,6 +103,7 @@
 ||resolver1.opendns.com^
 ||resolver1-fs.opendns.com^
 ||resolver2.opendns.com^
+||resolver2-fs.opendns.com^
 ||sandbox.opendns.com^
 ||httpdns.ocloud.oppomobile.com^
 ||httpdns.push.oppomobile.com^
@@ -118,11 +120,14 @@
 ||dns9.quad9.net^
 ||dnspub.restena.lu^
 ||dns.rubyfish.cn^
+||httpdns.n.shifen.com^
 ||doh-01.spectrum.com^
 ||doh-02.spectrum.com^
 ||ibksturm.synology.me^
 ||dns.t-ipnet.de^
+||httpdns.danuoyi.tbcache.com^
 ||homenet.telecomitalia.it^
+||doh.tiar.app^
 ||sdkconfig.tlivedns.com^
 ||dns.twnic.tw^
 ||dns.umbrella.com^
@@ -132,7 +137,6 @@
 ||h4g3z1-doh-top.web.app^
 ||dns.wechat.com^
 ||paydns.wechatpay.cn^
-||dns.weibo.cn^
 ||doh2.gslb2.xfinity.com^
 ||doh.xfinity.com^
 ||common.dot.dns.yandex.net^
@@ -208,9 +212,8 @@
 ||edgy-dns.com^
 ||eth.link^
 ||getdnsapi.net^
-||gibblets.top^
 ||gigatapbot.top^
-||glacius.top^
+||greatideasforlife.lol^
 ||gztech.me^
 ||hfgx.shop^
 ||hitian.me^
@@ -219,7 +222,6 @@
 ||httpdns.pro^
 ||ib.systems^
 ||iij.jp^
-||imperio.top^
 ||inpssh.online^
 ||ivnkn.xyz^
 ||jabber-germany.de^
@@ -292,6 +294,7 @@
 ||vtcuong.site^
 ||wikimedia-dns.org^
 ||wyx.cloud^
+||xbcpb668.com^
 ||xbox-dns.ru^
 ||xenergy.cc^
 ||xn--durhre-yxa.de^
