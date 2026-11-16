@@ -7,8 +7,8 @@
 # Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 # Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 15 Nov 2026 13:56 UTC (15 Nov 2026 08:56 UTC)
-# Version: 2026.1115.0856.44
+# Last modified: 16 Nov 2026 15:47 UTC (16 Nov 2026 09:00 UTC)
+# Version: 2026.1116.0900.31
 # Syntax: DNSMasq v2.86 or newer
 # Number of entries: 3567
 #
@@ -1113,7 +1113,6 @@ local=/resolver2.dyndnsinternetguide.com/
 local=/rafi.dynns.com/
 local=/adguard.ekhozie.dynu.net/
 local=/ccadguard.dynu.net/
-local=/flyloadguard.dynu.net/
 local=/quangdo92.dynu.net/
 local=/gustamadh.dynv6.net/
 local=/dns.dynx.pro/
@@ -2418,6 +2417,7 @@ local=/dns11.quad9.net/
 local=/dns12.quad9.net/
 local=/dns13.quad9.net/
 local=/dns9.quad9.net/
+local=/doh-mullvad.quad9.net/
 local=/dns.quanhd.net/
 local=/dns.quickline.ch/
 local=/doh.quickline.ch/
@@ -3273,7 +3273,6 @@ local=/gl33tch.pro/
 local=/globalcloud.ir/
 local=/goldview.in/
 local=/golegana.de/
-local=/graveofhope.ru/
 local=/greatideasforlife.lol/
 local=/greppie.nl/
 local=/grunwald-marc.de/
@@ -3361,6 +3360,7 @@ local=/lukscasino-542-tr.xyz/
 local=/lukscasino-929-tr.xyz/
 local=/lunar-dns.de/
 local=/mabuktogel.business/
+local=/mabuktogel.cards/
 local=/mabuktogel.marketing/
 local=/mabuktogel.properties/
 local=/mabuktogel.solutions/
