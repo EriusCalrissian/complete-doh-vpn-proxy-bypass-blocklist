@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794819600 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794905640 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: Complete Encrypted DNS Bypass Blocklist - incl. dnsbunker.org
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ; Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Nov 2026 15:47 UTC (16 Nov 2026 09:00 UTC)
-; Version: 2026.1116.0900.31
+; Last modified: 17 Nov 2026 15:59 UTC (17 Nov 2026 08:54 UTC)
+; Version: 2026.1117.0854.56
 ; Syntax: RPZ
-; Number of entries: 7134
+; Number of entries: 7136
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -242,6 +242,8 @@ dns.edgeworkssystems.ca CNAME .
 *.dns.edgeworkssystems.ca CNAME .
 ag.ff0x.ca CNAME .
 *.ag.ff0x.ca CNAME .
+adguard.jfchenier.ca CNAME .
+*.adguard.jfchenier.ca CNAME .
 doh.nukys.ca CNAME .
 *.doh.nukys.ca CNAME .
 router.sapib.ca CNAME .
