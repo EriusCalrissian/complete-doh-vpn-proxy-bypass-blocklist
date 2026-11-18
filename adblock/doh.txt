@@ -8,10 +8,10 @@
 ! Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ! Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 17 Nov 2026 15:59 UTC (17 Nov 2026 08:54 UTC)
-! Version: 2026.1117.0854.56
+! Last modified: 18 Nov 2026 15:39 UTC (17 Nov 2026 23:55 UTC)
+! Version: 2026.1117.2355.47
 ! Syntax: AdBlock
-! Number of entries: 3568
+! Number of entries: 3571
 !
 ||ss.0001.xyz^
 ||ns.00dani.me^
@@ -174,6 +174,9 @@
 ||dns.adguard.com^
 ||dns-family.adguard.com^
 ||dns-unfiltered.adguard.com^
+||dns.adguarddns.com^
+||family.adguarddns.com^
+||unfiltered.adguarddns.com^
 ||dns.adnull.com^
 ||dns.adrianlam.com^
 ||adguard.adrianofrongillo.ovh^
@@ -2911,7 +2914,6 @@
 ||dns.w3ctag.org^
 ||bh.wael.name^
 ||dns.wael.name^
-||dns.wahr.top^
 ||aqua.is.my.waifu.cz^
 ||darkness.is.my.waifu.cz^
 ||megumin.is.my.waifu.cz^
@@ -3211,6 +3213,7 @@
 ||dns.sb^
 ||dns.watch^
 ||dns-free.link^
+||dns0.eu^
 ||dns4me.net^
 ||dns8.org^
 ||dnsdoh.art^

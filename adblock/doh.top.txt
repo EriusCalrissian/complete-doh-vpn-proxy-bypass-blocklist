@@ -8,8 +8,8 @@
 ! Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ! Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 17 Nov 2026 15:59 UTC (17 Nov 2026 08:55 UTC)
-! Version: 2026.1117.0855.06
+! Last modified: 18 Nov 2026 15:39 UTC (18 Nov 2026 09:09 UTC)
+! Version: 2026.1118.0909.36
 ! Syntax: AdBlock
 ! Number of entries: 289
 !
@@ -133,7 +133,6 @@
 ||h4g3z1-doh-top.web.app^
 ||dns.wechat.com^
 ||paydns.wechatpay.cn^
-||dns.weibo.cn^
 ||doh2.gslb2.xfinity.com^
 ||doh.xfinity.com^
 ||common.dot.dns.yandex.net^
@@ -184,6 +183,7 @@
 ||dns.pub^
 ||dns.sb^
 ||dns.watch^
+||dns0.eu^
 ||dns4me.net^
 ||dns8.org^
 ||dnsdoh.art^
