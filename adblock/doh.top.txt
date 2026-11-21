@@ -8,10 +8,10 @@
 ! Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ! Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 20 Nov 2026 15:27 UTC (20 Nov 2026 09:13 UTC)
-! Version: 2026.1120.0913.09
+! Last modified: 21 Nov 2026 14:39 UTC (21 Nov 2026 09:09 UTC)
+! Version: 2026.1121.0909.29
 ! Syntax: AdBlock
-! Number of entries: 293
+! Number of entries: 289
 !
 ||httpdns.music.163.com^
 ||doh.360.cn^
@@ -118,12 +118,9 @@
 ||dns12.quad9.net^
 ||dns9.quad9.net^
 ||dnspub.restena.lu^
-||dns.rubyfish.cn^
-||free.shecan.ir^
 ||httpdns.n.shifen.com^
 ||doh-01.spectrum.com^
 ||doh-02.spectrum.com^
-||dns.surfsharkdns.com^
 ||ibksturm.synology.me^
 ||dns.t-ipnet.de^
 ||homenet.telecomitalia.it^
@@ -136,7 +133,6 @@
 ||h4g3z1-doh-top.web.app^
 ||dns.wechat.com^
 ||paydns.wechatpay.cn^
-||dns.weibo.cn^
 ||doh2.gslb2.xfinity.com^
 ||doh.xfinity.com^
 ||common.dot.dns.yandex.net^
