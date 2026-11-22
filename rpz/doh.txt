@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795213200 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795305540 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: Complete Encrypted DNS Bypass Blocklist - incl. dnsbunker.org
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ; Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 21 Nov 2026 14:39 UTC (20 Nov 2026 22:20 UTC)
-; Version: 2026.1120.2220.26
+; Last modified: 22 Nov 2026 14:35 UTC (21 Nov 2026 23:59 UTC)
+; Version: 2026.1121.2359.22
 ; Syntax: RPZ
-; Number of entries: 7144
+; Number of entries: 7142
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -780,8 +780,6 @@ internetsehat.bebasid.com CNAME .
 *.internetsehat.bebasid.com CNAME .
 domburg.beruys.com CNAME .
 *.domburg.beruys.com CNAME .
-bestwon203.com CNAME .
-*.bestwon203.com CNAME .
 dns.bezmezhau.com CNAME .
 *.dns.bezmezhau.com CNAME .
 dns.bgeneto.com CNAME .
@@ -1080,8 +1078,6 @@ dns.easyhns.com CNAME .
 *.dns.easyhns.com CNAME .
 dns.edc-pws.com CNAME .
 *.dns.edc-pws.com CNAME .
-edgy-dns.com CNAME .
-*.edgy-dns.com CNAME .
 dns.efficientdocuments.com CNAME .
 *.dns.efficientdocuments.com CNAME .
 dns.ekinao.com CNAME .
@@ -1644,6 +1640,8 @@ dns.pgnhatrang.com CNAME .
 *.dns.pgnhatrang.com CNAME .
 philqoo.com CNAME .
 *.philqoo.com CNAME .
+doh.centraleu.pi-dns.com CNAME .
+*.doh.centraleu.pi-dns.com CNAME .
 dns.pieterdherde.com CNAME .
 *.dns.pieterdherde.com CNAME .
 helios.plan9-dns.com CNAME .
@@ -2498,6 +2496,8 @@ dns.bcel.email CNAME .
 *.dns.bcel.email CNAME .
 dns.jucker.engineering CNAME .
 *.dns.jucker.engineering CNAME .
+mabuktogel.enterprises CNAME .
+*.mabuktogel.enterprises CNAME .
 prdot.cldsrv.es CNAME .
 *.prdot.cldsrv.es CNAME .
 dns.esnube.es CNAME .
@@ -3512,6 +3512,8 @@ dns.redvau.lt CNAME .
 *.dns.redvau.lt CNAME .
 dns.5273.ltd CNAME .
 *.dns.5273.ltd CNAME .
+mabuktogel.ltd CNAME .
+*.mabuktogel.ltd CNAME .
 sink.nolo.ltd CNAME .
 *.sink.nolo.ltd CNAME .
 crd.circl.lu CNAME .
@@ -3838,8 +3840,6 @@ dns.andersonr.net CNAME .
 *.dns.andersonr.net CNAME .
 adguard01.apexhost.net CNAME .
 *.adguard01.apexhost.net CNAME .
-mask-api.fe.apple-dns.net CNAME .
-*.mask-api.fe.apple-dns.net CNAME .
 applied-privacy.net CNAME .
 *.applied-privacy.net CNAME .
 doh.appliedprivacy.net CNAME .
@@ -6244,8 +6244,6 @@ s1.s2.shahramv1.site CNAME .
 *.s1.s2.shahramv1.site CNAME .
 agha.sunryu.site CNAME .
 *.agha.sunryu.site CNAME .
-tecdrive.site CNAME .
-*.tecdrive.site CNAME .
 vtcuong.site CNAME .
 *.vtcuong.site CNAME .
 dns.levonet.sk CNAME .
