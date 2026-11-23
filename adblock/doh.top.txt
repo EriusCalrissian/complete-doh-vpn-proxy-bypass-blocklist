@@ -8,10 +8,10 @@
 ! Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ! Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 22 Nov 2026 14:35 UTC (22 Nov 2026 09:07 UTC)
-! Version: 2026.1122.0907.20
+! Last modified: 23 Nov 2026 18:08 UTC (23 Nov 2026 08:51 UTC)
+! Version: 2026.1123.0851.22
 ! Syntax: AdBlock
-! Number of entries: 300
+! Number of entries: 297
 !
 ||httpdns.music.163.com^
 ||doh.360.cn^
@@ -123,6 +123,7 @@
 ||dns11.quad9.net^
 ||dns12.quad9.net^
 ||dns9.quad9.net^
+||doh-mullvad.quad9.net^
 ||dnspub.restena.lu^
 ||dns.rubyfish.cn^
 ||free.shecan.ir^
@@ -135,6 +136,7 @@
 ||ibksturm.synology.me^
 ||dns.t-ipnet.de^
 ||homenet.telecomitalia.it^
+||dot.tiar.app^
 ||sdkconfig.tlivedns.com^
 ||dns.twnic.tw^
 ||dns.umbrella.com^
@@ -144,6 +146,7 @@
 ||h4g3z1-doh-top.web.app^
 ||dns.wechat.com^
 ||paydns.wechatpay.cn^
+||dns.weibo.cn^
 ||doh2.gslb2.xfinity.com^
 ||doh.xfinity.com^
 ||common.dot.dns.yandex.net^
@@ -158,7 +161,6 @@
 ||123000123.xyz^
 ||1and1-dns.de^
 ||233py.com^
-||3dcosas.xyz^
 ||3dns.eu^
 ||3jjxxl.tech^
 ||8888.google^
@@ -207,7 +209,6 @@
 ||dnsguard.pub^
 ||dnslow.me^
 ||dnspod.com^
-||do-39574-tr.xyz^
 ||doh.beauty^
 ||doh.best^
 ||doh.buzz^
@@ -239,11 +240,9 @@
 ||johneldenring.lol^
 ||kaiwu.xyz^
 ||kilabit.info^
-||kx-97795-tr.xyz^
 ||lastentarvike.fi^
 ||ledns.eu^
 ||lelux.fi^
-||lesuo.top^
 ||lewsha.lol^
 ||loadlow.me^
 ||lukscasino-479-tr.xyz^
@@ -259,7 +258,6 @@
 ||moamao.shop^
 ||morbitzer.de^
 ||muxyuji.ru^
-||myatris.sbs^
 ||najiakeji.top^
 ||nicsezcheckfbi.gov^
 ||ns3.com^
@@ -290,7 +288,6 @@
 ||tri-dns.net^
 ||tributh.net^
 ||truta.org^
-||tuskythehusky.tech^
 ||ublockdns.com^
 ||unasw.eu^
 ||uncensoreddns.org^
