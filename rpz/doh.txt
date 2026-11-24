@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795423800 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795511040 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: Complete Encrypted DNS Bypass Blocklist - incl. dnsbunker.org
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ; Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Nov 2026 18:08 UTC (23 Nov 2026 08:50 UTC)
-; Version: 2026.1123.0850.55
+; Last modified: 24 Nov 2026 17:45 UTC (24 Nov 2026 09:04 UTC)
+; Version: 2026.1124.0904.25
 ; Syntax: RPZ
-; Number of entries: 7106
+; Number of entries: 7114
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1074,6 +1074,8 @@ dns.easyhns.com CNAME .
 *.dns.easyhns.com CNAME .
 dns.edc-pws.com CNAME .
 *.dns.edc-pws.com CNAME .
+dns.edgeburnmedia.com CNAME .
+*.dns.edgeburnmedia.com CNAME .
 dns.efficientdocuments.com CNAME .
 *.dns.efficientdocuments.com CNAME .
 dns.ekinao.com CNAME .
@@ -1628,6 +1630,18 @@ doh.centraleu.pi-dns.com CNAME .
 *.doh.centraleu.pi-dns.com CNAME .
 dot.centraleu.pi-dns.com CNAME .
 *.dot.centraleu.pi-dns.com CNAME .
+doh.pi-dns.com CNAME .
+*.doh.pi-dns.com CNAME .
+dot.eastas.pi-dns.com CNAME .
+*.dot.eastas.pi-dns.com CNAME .
+doh.eastau.pi-dns.com CNAME .
+*.doh.eastau.pi-dns.com CNAME .
+dot.eastau.pi-dns.com CNAME .
+*.dot.eastau.pi-dns.com CNAME .
+dot.eastus.pi-dns.com CNAME .
+*.dot.eastus.pi-dns.com CNAME .
+doh.westus.pi-dns.com CNAME .
+*.doh.westus.pi-dns.com CNAME .
 dns.pieterdherde.com CNAME .
 *.dns.pieterdherde.com CNAME .
 helios.plan9-dns.com CNAME .
@@ -2772,8 +2786,6 @@ home.r01.fr CNAME .
 *.home.r01.fr CNAME .
 rayneau.fr CNAME .
 *.rayneau.fr CNAME .
-wg.req1.fr CNAME .
-*.wg.req1.fr CNAME .
 dns.sellan.fr CNAME .
 *.dns.sellan.fr CNAME .
 pates.services.sfr.fr.casepp.sfr.fr CNAME .
@@ -5848,8 +5860,6 @@ dns.amigo-mgn.ru CNAME .
 *.dns.amigo-mgn.ru CNAME .
 an81dns.ru CNAME .
 *.an81dns.ru CNAME .
-andrey93rus.ru CNAME .
-*.andrey93rus.ru CNAME .
 angrysky.ru CNAME .
 *.angrysky.ru CNAME .
 ad.anym0re.ru CNAME .
@@ -5900,8 +5910,6 @@ doh.edifiels.ru CNAME .
 *.doh.edifiels.ru CNAME .
 dns.engineer-lib.ru CNAME .
 *.dns.engineer-lib.ru CNAME .
-vm596152.eurodir.ru CNAME .
-*.vm596152.eurodir.ru CNAME .
 dns.farshmc.ru CNAME .
 *.dns.farshmc.ru CNAME .
 dns.fidbonteam.ru CNAME .

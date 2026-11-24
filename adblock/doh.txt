@@ -8,10 +8,10 @@
 ! Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ! Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 23 Nov 2026 18:08 UTC (23 Nov 2026 08:50 UTC)
-! Version: 2026.1123.0850.55
+! Last modified: 24 Nov 2026 17:45 UTC (24 Nov 2026 09:04 UTC)
+! Version: 2026.1124.0904.25
 ! Syntax: AdBlock
-! Number of entries: 3553
+! Number of entries: 3557
 !
 ||ss.0001.xyz^
 ||ns.00dani.me^
@@ -1130,6 +1130,7 @@
 ||dns.edc-pws.com^
 ||dns.eddi.net^
 ||doh.eddi.net^
+||dns.edgeburnmedia.com^
 ||dns.edgeworkssystems.ca^
 ||doh.edifiels.ru^
 ||dns.edison42.dev^
@@ -1209,7 +1210,6 @@
 ||tartanbahn.eu.org^
 ||v2rich.eu.org^
 ||yanggan.eu.org^
-||vm596152.eurodir.ru^
 ||exns1.exalto.nu^
 ||dns.exhome.pl^
 ||adguard.eximpius.xyz^
@@ -2308,6 +2308,12 @@
 ||dns.phillipjberry.net^
 ||doh.centraleu.pi-dns.com^
 ||dot.centraleu.pi-dns.com^
+||dot.eastas.pi-dns.com^
+||doh.eastau.pi-dns.com^
+||dot.eastau.pi-dns.com^
+||dot.eastus.pi-dns.com^
+||doh.westus.pi-dns.com^
+||doh.pi-dns.com^
 ||adguard.piekacz.pl^
 ||dns.pierzchlewicz.pl^
 ||dns.pieterdherde.com^
@@ -2457,7 +2463,6 @@
 ||dns.reolinks.ru^
 ||dns.repinger.com^
 ||dns.repressoh.it^
-||wg.req1.fr^
 ||x.res.wang^
 ||dns.resoft.org^
 ||dnspub.restena.lu^
@@ -3120,7 +3125,6 @@
 ||amazonka7.ru^
 ||an81dns.ru^
 ||andrewnw.xyz^
-||andrey93rus.ru^
 ||angrysky.ru^
 ||anixlab.com^
 ||applied-privacy.net^
