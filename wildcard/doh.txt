@@ -7,10 +7,10 @@
 # Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 # Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 24 Nov 2026 17:45 UTC (24 Nov 2026 09:04 UTC)
-# Version: 2026.1124.0904.25
+# Last modified: 25 Nov 2026 17:14 UTC (25 Nov 2026 15:50 UTC)
+# Version: 2026.1125.1550.39
 # Syntax: Domains Wildcard (without subdomains)
-# Number of entries: 3557
+# Number of entries: 3564
 #
 *.ss.0001.xyz
 *.ns.00dani.me
@@ -414,7 +414,6 @@
 *.agh.broaddy.com
 *.service.broe.ru
 *.dns.brono.cloud
-*.home.bruckmoser.it
 *.81.brudnowski.eu
 *.81xyz.brudnowski.eu
 *.doh.bt.com
@@ -1671,7 +1670,6 @@
 *.adguard.jodatacenter.com
 *.dns.joey01245.nl
 *.dmjp.joeyl.de
-*.adguard.johanliebert.top
 *.dns.johndave.me
 *.child.joindns4.eu
 *.child-noads.joindns4.eu
@@ -2307,11 +2305,17 @@
 *.dns.phillipjberry.net
 *.doh.centraleu.pi-dns.com
 *.dot.centraleu.pi-dns.com
+*.doh.eastas.pi-dns.com
 *.dot.eastas.pi-dns.com
 *.doh.eastau.pi-dns.com
 *.dot.eastau.pi-dns.com
+*.doh.eastus.pi-dns.com
 *.dot.eastus.pi-dns.com
+*.doh.northeu.pi-dns.com
+*.dot.northeu.pi-dns.com
+*.doh.westeu.pi-dns.com
 *.doh.westus.pi-dns.com
+*.dot.westus.pi-dns.com
 *.doh.pi-dns.com
 *.adguard.piekacz.pl
 *.dns.pierzchlewicz.pl
@@ -2397,6 +2401,7 @@
 *.oracle.q66z.com
 *.home.qbak.net
 *.adk.qcloud.work
+*.v.qdev.cc
 *.dns.qkc.fr
 *.dns.qpt.one
 *.dns2.qpt.one
@@ -2695,6 +2700,7 @@
 *.dns.sv-zauner.at
 *.dns.svoi.dev
 *.vps.swhome.by
+*.dns.swin.pro
 *.dns.switch.ch
 *.dns-cache.switch.ch
 *.dns-cache2.switch.ch
@@ -3428,6 +3434,7 @@
 *.polisitogel.contractors
 *.polisitogel.green
 *.polisitogel.hair
+*.polisitogel.living
 *.polisitogel.webcam
 *.privatebard.com
 *.project-evoex.de

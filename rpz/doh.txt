@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795511040 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795621800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: Complete Encrypted DNS Bypass Blocklist - incl. dnsbunker.org
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ; Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 17:45 UTC (24 Nov 2026 09:04 UTC)
-; Version: 2026.1124.0904.25
+; Last modified: 25 Nov 2026 17:14 UTC (25 Nov 2026 15:50 UTC)
+; Version: 2026.1125.1550.39
 ; Syntax: RPZ
-; Number of entries: 7114
+; Number of entries: 7128
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -314,6 +314,8 @@ dns.nonomi.cc CNAME .
 *.dns.nonomi.cc CNAME .
 doh.plop.cc CNAME .
 *.doh.plop.cc CNAME .
+v.qdev.cc CNAME .
+*.v.qdev.cc CNAME .
 resolve2.r9x.cc CNAME .
 *.resolve2.r9x.cc CNAME .
 dns.redroot.cc CNAME .
@@ -1632,16 +1634,28 @@ dot.centraleu.pi-dns.com CNAME .
 *.dot.centraleu.pi-dns.com CNAME .
 doh.pi-dns.com CNAME .
 *.doh.pi-dns.com CNAME .
+doh.eastas.pi-dns.com CNAME .
+*.doh.eastas.pi-dns.com CNAME .
 dot.eastas.pi-dns.com CNAME .
 *.dot.eastas.pi-dns.com CNAME .
 doh.eastau.pi-dns.com CNAME .
 *.doh.eastau.pi-dns.com CNAME .
 dot.eastau.pi-dns.com CNAME .
 *.dot.eastau.pi-dns.com CNAME .
+doh.eastus.pi-dns.com CNAME .
+*.doh.eastus.pi-dns.com CNAME .
 dot.eastus.pi-dns.com CNAME .
 *.dot.eastus.pi-dns.com CNAME .
+doh.northeu.pi-dns.com CNAME .
+*.doh.northeu.pi-dns.com CNAME .
+dot.northeu.pi-dns.com CNAME .
+*.dot.northeu.pi-dns.com CNAME .
+doh.westeu.pi-dns.com CNAME .
+*.doh.westeu.pi-dns.com CNAME .
 doh.westus.pi-dns.com CNAME .
 *.doh.westus.pi-dns.com CNAME .
+dot.westus.pi-dns.com CNAME .
+*.dot.westus.pi-dns.com CNAME .
 dns.pieterdherde.com CNAME .
 *.dns.pieterdherde.com CNAME .
 helios.plan9-dns.com CNAME .
@@ -3350,8 +3364,6 @@ ricko.is CNAME .
 *.ricko.is CNAME .
 block.abstergo.it CNAME .
 *.block.abstergo.it CNAME .
-home.bruckmoser.it CNAME .
-*.home.bruckmoser.it CNAME .
 doh.ccb-net.it CNAME .
 *.doh.ccb-net.it CNAME .
 dns.home.daniil.it CNAME .
@@ -3470,6 +3482,8 @@ xins.live CNAME .
 *.xins.live CNAME .
 v2.xx3210766.live CNAME .
 *.v2.xx3210766.live CNAME .
+polisitogel.living CNAME .
+*.polisitogel.living CNAME .
 acomit.lk CNAME .
 *.acomit.lk CNAME .
 cpru.dolbankoinc.lol CNAME .
@@ -5464,6 +5478,8 @@ cdn.refined.pro CNAME .
 *.cdn.refined.pro CNAME .
 adguard.app.sabino.pro CNAME .
 *.adguard.app.sabino.pro CNAME .
+dns.swin.pro CNAME .
+*.dns.swin.pro CNAME .
 doh.xcom.pro CNAME .
 *.doh.xcom.pro CNAME .
 xiaoxie.pro CNAME .
@@ -6414,8 +6430,6 @@ hk.jason666.top CNAME .
 *.hk.jason666.top CNAME .
 jimmyshjj.top CNAME .
 *.jimmyshjj.top CNAME .
-adguard.johanliebert.top CNAME .
-*.adguard.johanliebert.top CNAME .
 ad.kccsl.top CNAME .
 *.ad.kccsl.top CNAME .
 blog.kimiblock.top CNAME .
