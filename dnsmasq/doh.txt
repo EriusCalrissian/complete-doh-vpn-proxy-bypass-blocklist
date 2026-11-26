@@ -7,10 +7,10 @@
 # Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 # Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 25 Nov 2026 17:14 UTC (25 Nov 2026 15:50 UTC)
-# Version: 2026.1125.1550.39
+# Last modified: 26 Nov 2026 16:54 UTC (26 Nov 2026 09:10 UTC)
+# Version: 2026.1126.0910.26
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3564
+# Number of entries: 3563
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -1420,7 +1420,6 @@ local=/secure.hafnova.com/
 local=/dns.hahnjo.de/
 local=/dns.haka.se/
 local=/dns.hakim.one/
-local=/dns.hakutakucn.com/
 local=/dns.hanahira.dev/
 local=/adguard.haneulo.com/
 local=/dns.hanmey.de/
@@ -2401,7 +2400,6 @@ local=/vpsus3.pzhg.me/
 local=/oracle.q66z.com/
 local=/home.qbak.net/
 local=/adk.qcloud.work/
-local=/v.qdev.cc/
 local=/dns.qkc.fr/
 local=/dns.qpt.one/
 local=/dns2.qpt.one/
@@ -2920,6 +2918,7 @@ local=/yunyun.is.my.waifu.cz/
 local=/dns.walker.id/
 local=/adguard.wallura.eu/
 local=/lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr/
+local=/dns.wang.art/
 local=/dmit.wangjiaqi.store/
 local=/dns.wargan.io/
 local=/abel.waringer-atg.de/

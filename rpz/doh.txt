@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795621800 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795684200 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: Complete Encrypted DNS Bypass Blocklist - incl. dnsbunker.org
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ; Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 25 Nov 2026 17:14 UTC (25 Nov 2026 15:50 UTC)
-; Version: 2026.1125.1550.39
+; Last modified: 26 Nov 2026 16:54 UTC (26 Nov 2026 09:10 UTC)
+; Version: 2026.1126.0910.26
 ; Syntax: RPZ
-; Number of entries: 7128
+; Number of entries: 7126
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -82,6 +82,8 @@ dnsdoh.art CNAME .
 *.dnsdoh.art CNAME .
 dns.sogemoge.art CNAME .
 *.dns.sogemoge.art CNAME .
+dns.wang.art CNAME .
+*.dns.wang.art CNAME .
 dns.sarak.as CNAME .
 *.dns.sarak.as CNAME .
 dns1.sarak.as CNAME .
@@ -314,8 +316,6 @@ dns.nonomi.cc CNAME .
 *.dns.nonomi.cc CNAME .
 doh.plop.cc CNAME .
 *.doh.plop.cc CNAME .
-v.qdev.cc CNAME .
-*.v.qdev.cc CNAME .
 resolve2.r9x.cc CNAME .
 *.resolve2.r9x.cc CNAME .
 dns.redroot.cc CNAME .
@@ -1174,8 +1174,6 @@ adguard.h4nt3r.com CNAME .
 *.adguard.h4nt3r.com CNAME .
 secure.hafnova.com CNAME .
 *.secure.hafnova.com CNAME .
-dns.hakutakucn.com CNAME .
-*.dns.hakutakucn.com CNAME .
 adguard.haneulo.com CNAME .
 *.adguard.haneulo.com CNAME .
 dns.hannielzhang.com CNAME .

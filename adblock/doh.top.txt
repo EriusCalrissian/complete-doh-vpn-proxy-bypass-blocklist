@@ -8,10 +8,10 @@
 ! Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 ! Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 25 Nov 2026 17:14 UTC (25 Nov 2026 08:51 UTC)
-! Version: 2026.1125.0851.11
+! Last modified: 26 Nov 2026 16:54 UTC (26 Nov 2026 09:10 UTC)
+! Version: 2026.1126.0910.54
 ! Syntax: AdBlock
-! Number of entries: 287
+! Number of entries: 288
 !
 ||httpdns.music.163.com^
 ||doh.360.cn^
@@ -120,6 +120,7 @@
 ||dns12.quad9.net^
 ||dns9.quad9.net^
 ||dnspub.restena.lu^
+||dns.rubyfish.cn^
 ||httpdns.n.shifen.com^
 ||doh-01.spectrum.com^
 ||doh-02.spectrum.com^
