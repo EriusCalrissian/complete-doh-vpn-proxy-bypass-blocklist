@@ -7,10 +7,10 @@
 # Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 # Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 26 Nov 2026 16:54 UTC (26 Nov 2026 09:10 UTC)
-# Version: 2026.1126.0910.26
+# Last modified: 27 Nov 2026 16:40 UTC (27 Nov 2026 15:51 UTC)
+# Version: 2026.1127.1551.49
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3563
+# Number of entries: 3572
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -258,6 +258,7 @@ local=/dns.applewebkit.dev/
 local=/doh.appliedprivacy.net/
 local=/dot1.appliedprivacy.net/
 local=/dns.aquilenet.fr/
+local=/dns.arapurayil.com/
 local=/doh.archuser.org/
 local=/dns.area2.com/
 local=/dns-4f92fba5f9.area2.com/
@@ -1203,6 +1204,7 @@ local=/beautifullife.eu.org/
 local=/beautifulthings.eu.org/
 local=/blackbb.eu.org/
 local=/clic.eu.org/
+local=/futuredns.eu.org/
 local=/r1bnc.eu.org/
 local=/sukidayo.eu.org/
 local=/tartanbahn.eu.org/
@@ -1216,6 +1218,7 @@ local=/adguard.exium.net/
 local=/dns.exonip.de/
 local=/dns.extrawdw.net/
 local=/ad.exxo.work/
+local=/fra1.eyecay.xyz/
 local=/dns.f1tech.info/
 local=/dns.f4a.fun/
 local=/dns.f97.xyz/
@@ -1691,6 +1694,7 @@ local=/dns.jucker.engineering/
 local=/addns.jujuland.net/
 local=/dns.jundev.org/
 local=/dns.jungle-im.ir/
+local=/dns.jupitrdns.com/
 local=/sgs02.just-a-web.com/
 local=/ad.justincounts.com/
 local=/dns.justinnetworkingsolutions.com/
@@ -1932,9 +1936,11 @@ local=/rwkdwpwsyv48.mikopono.nl/
 local=/dns.millernetwork.uk/
 local=/color.mine.bz/
 local=/aitkcrev.minhduc.pw/
+local=/dns.mipauns.com/
 local=/guard.miracloud.fr/
 local=/netcup.mismat.ch/
 local=/httpdns.browser.miui.com/
+local=/dns.miyun1.com/
 local=/doh.mmmalia.com/
 local=/dns.mnet-online.de/
 local=/dns.mni.li/
@@ -2125,6 +2131,7 @@ local=/tlan.aa1.netvolante.jp/
 local=/dns.netvpn.net/
 local=/cube.neubsi.at/
 local=/dns.neubsi.at/
+local=/dns.neutopia.org/
 local=/doh.nexen.cloud/
 local=/doh.luigi.nexific.it/
 local=/anycast.nextdns.io/
@@ -2282,6 +2289,7 @@ local=/dns.pari.network/
 local=/dns.parsly.tech/
 local=/dns.pastorov.ru/
 local=/wg.pastorov.ru/
+local=/doh.gcp.pathofgrace.com/
 local=/nas.patrick-antoine.fr/
 local=/dns.paxavemedia.com/
 local=/vps-ovh.pb2004.pl/
@@ -2400,6 +2408,7 @@ local=/vpsus3.pzhg.me/
 local=/oracle.q66z.com/
 local=/home.qbak.net/
 local=/adk.qcloud.work/
+local=/v.qdev.cc/
 local=/dns.qkc.fr/
 local=/dns.qpt.one/
 local=/dns2.qpt.one/
@@ -2918,7 +2927,6 @@ local=/yunyun.is.my.waifu.cz/
 local=/dns.walker.id/
 local=/adguard.wallura.eu/
 local=/lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr/
-local=/dns.wang.art/
 local=/dmit.wangjiaqi.store/
 local=/dns.wargan.io/
 local=/abel.waringer-atg.de/
@@ -3393,6 +3401,7 @@ local=/myatris.sbs/
 local=/mydevpn.eu/
 local=/mysolod.xyz/
 local=/myv2ray.cn/
+local=/n0.eu/
 local=/najiakeji.top/
 local=/nelsonleung.org/
 local=/nickcan.xyz/
