@@ -7,10 +7,10 @@
 # Issues: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/issues
 # Disclaimer: https://github.com/EriusCalrissian/complete-doh-vpn-proxy-bypass-blocklist/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 27 Nov 2026 16:40 UTC (27 Nov 2026 15:51 UTC)
-# Version: 2026.1127.1551.49
+# Last modified: 28 Nov 2026 15:31 UTC (28 Nov 2026 08:56 UTC)
+# Version: 2026.1128.0856.10
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3572
+# Number of entries: 3575
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -1345,7 +1345,6 @@ local=/ad.gaukova.ru/
 local=/adg.geili.me/
 local=/dns.geohide.ru/
 local=/alyus.geri.vip/
-local=/geshido.vpn.geshido.ru/
 local=/roma.vpn.geshido.ru/
 local=/ashixu.ggff.net/
 local=/adguard.ghkyzz.us/
@@ -3363,9 +3362,13 @@ local=/lukscasino-479-tr.xyz/
 local=/lukscasino-542-tr.xyz/
 local=/lukscasino-929-tr.xyz/
 local=/lunar-dns.de/
+local=/mabuktogel.builders/
 local=/mabuktogel.business/
 local=/mabuktogel.cards/
+local=/mabuktogel.creditcard/
 local=/mabuktogel.enterprises/
+local=/mabuktogel.immobilien/
+local=/mabuktogel.limited/
 local=/mabuktogel.ltd/
 local=/mabuktogel.marketing/
 local=/mabuktogel.properties/
